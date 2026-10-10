@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    margin-top: 5rem;
+}  
+
+h1, p, #music-player {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#music-player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#song-name{
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+
+#music-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20px
+}
+
+#music-buttons i {
+    padding: 10px;
+}
+
+#song-cover {
+    height: 18.75rem;
+    width: 18.75rem;
+    border-radius: 10px;
+}
+
+#slider-song {
+    width: 500px;
+    accent-color: pink;
+}
+
+#slider-song::-webkit-slider-thumb{
+    border-color: pink;
+}
